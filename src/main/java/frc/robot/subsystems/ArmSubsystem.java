@@ -29,4 +29,9 @@ public class ArmSubsystem extends SubsystemBase{
         setSpeed2(speed2);
     }
 
+    public void stopAllMotors() {
+        motor1.set(0);
+        motor2.set(0);
+    }
+
 }
