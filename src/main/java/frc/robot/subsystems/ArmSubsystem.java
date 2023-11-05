@@ -34,4 +34,14 @@ public class ArmSubsystem extends SubsystemBase{
         motor2.set(0);
     }
 
+    @Override
+    public void periodic() {
+
+    }
+
+    @Override
+    public void simulationPeriodic() {
+        
+    }
+
 }
