@@ -55,6 +55,7 @@ public class RobotContainer {
 		// pressed, cancelling on release.
 		m_driverController.b().whileTrue(m_exampleSubsystem.exampleMethodCommand());
 		
+		//set all motor speeds to 0 then run TestArmCommand
 		Command stopMotorsAndRunOnce = Commands.runOnce(() -> armSubsystem.stopAllMotors()).andThen(() -> new TestArmCommand(armSubsystem));
 	}
 

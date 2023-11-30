@@ -21,6 +21,15 @@ public final class Constants {
 	public static class PortConstants {
 		public static final int ARM_PORT_1 = 1;
 		public static final int ARM_PORT_2 = 2;
+
+		public static final int LIMIT_SWITCH_PORT_1 = 3;
+		public static final int LIMIT_SWITCH_PORT_2 = 4;
+
+	}
+
+	public static class ArmConstants {
+		public static final double motor1DefaultPosition = 20;
+		public static final double motor2DefaultPosition = 30;
 	}
 
 }
